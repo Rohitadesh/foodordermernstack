@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin:0;
+}
+.divgrid{
+    grid-template-rows: repeat(4,minmax(300px,1fr)) ;
+}
+.divgrid1{
+    grid-template-rows: repeat(3,minmax(300px,1fr));
+}
+.divgrid2{
+    grid-template-rows: repeat(2,minmax(300px,1fr));
+}
+.divgrid3{
+    grid-template-rows: repeat(4,minmax(300px,1fr)) ;
+}
+.back{
+    background-image: linear-gradient(to left, #f0fdee, #e8fcf1, #e2fbf4, #ddf9f8, #dbf7fc, #dbf6fd, #dbf4fe, #dbf3fe, #daf3fd, #daf2fd, #d9f2fc, #d9f1fb);
+}
